@@ -5,6 +5,13 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+header {
+    background-color: #FFF;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+    } 
+
 .nav-title{
     display: flex;
    align-items: center;
@@ -28,4 +35,145 @@ nav > ul {
 nav li{
     list-style: none;
     margin: 25px;
+}
+main{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.play{
+    color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-weight: 600;
+}
+.goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-size: 70px;
+font-weight: 800;
+}
+.play-section p{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+.play-section{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 50px; */
+    
+
+}
+/* .play-description{
+    padding: 20px 50px;
+} */
+.btn-primary{
+    border-radius: 48px;
+    border: 0;
+background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+/* display: inline-flex; */
+padding: 17px 30px;
+align-items: flex-start;
+gap: 10px;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+}
+.btn-GO{
+    border-radius: 48px;
+    border: none;
+background: #4EC5F7;
+/* display: inline-flex; */
+padding: 17px 30px;
+align-items: flex-start;
+gap: 10px;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+}
+.Group1{
+    /* width: 711px;
+height: 446px; */
+ width: 100%;
+}
+
+.online{
+    color: #0B0223;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+
+}
+.online-des{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+line-height: normal;
+}
+.card-containter{
+    display: flex;
+    gap:5px;
+}
+/* .card{
+    width: 102px;
+height: 200px;
+} */
+.card img{
+    width: 100%;
+    /* width: 242px; */
+    height: 300px;   
+    
+}
+.card p{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 30px; 
+}
+
+
+.king-containter{
+    display: flex;
+    margin-top: 50px;
+}
+
+.king-head{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+.king-khan p{
+    text-align: right;
+}
+.king-play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.king-pic1{
+    Width:100%;
+    margin-left: 50px;
+}
+.choto-pic{
+    width: 200px;
+    position: relative;
+    bottom: 200px;
 }
