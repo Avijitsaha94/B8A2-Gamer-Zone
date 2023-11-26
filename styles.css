@@ -196,16 +196,25 @@ background-clip: text;
     width: 1920px;
 height: 636px;
 background: #0B0223;
-justify-content: center;
-text-align: center;
+padding: 100px ,100px;
+
+
+}
+.footer-main1{
+    text-align: center;
+    justify-content: center;
 }
 .footer-nav-title{
     display: flex;
-   align-items: center;
+   text-align: center;
+   justify-content: center;
 }
 .footer-nav-img{
     width: 86.041px;
     height: 40px; 
+    margin-top: 30px;
+   text-align: center;
+   justify-content: center;
     } 
     .footer-gamer-g{
         color: #FF42A5  ;
@@ -214,7 +223,8 @@ text-align: center;
     color: #FFF;
 /* font-size: 45px; */
 font-weight: 700;
-line-height: normal;
+margin-top: 30px;
+
 }
 .footer-list li{
     color: #FFF;
@@ -226,11 +236,15 @@ font-weight: 600;
     display: flex;
     list-style: none;
     gap: 20px;
+    text-align: center;
+    justify-content: center;
     
 }
 .footer-icon{
     display: flex;
     gap: 20px;
+    text-align: center;
+    justify-content: center;
 }
 .footer-icon img{
     width: 50px;
