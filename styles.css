@@ -20,6 +20,9 @@ header {
 width: 86.041px;
 height: 40px; 
 } 
+.play-description{
+    background-image:url(images/Group\ 14.png)
+}
 .gamer-g{
     color: #FF42A5  ;
 }
@@ -176,4 +179,77 @@ background-clip: text;
     width: 200px;
     position: relative;
     bottom: 200px;
+}
+.icon{
+    display: flex;
+    
+ 
+}
+.icon-pic{
+   margin-left: 10px;
+}
+.icon-sec{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-main{
+    width: 1920px;
+height: 636px;
+background: #0B0223;
+justify-content: center;
+text-align: center;
+}
+.footer-nav-title{
+    display: flex;
+   align-items: center;
+}
+.footer-nav-img{
+    width: 86.041px;
+    height: 40px; 
+    } 
+    .footer-gamer-g{
+        color: #FF42A5  ;
+    }
+.amer{
+    color: #FFF;
+/* font-size: 45px; */
+font-weight: 700;
+line-height: normal;
+}
+.footer-list li{
+    color: #FFF;
+
+font-size: 18px;
+font-weight: 600;
+}
+.footer-list1{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-icon img{
+    width: 50px;
+}
+.footer-terms{
+    display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+color: rgba(255, 255, 255, 0.60);
+
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+}
+.footer-last {
+    color: rgba(255, 255, 255, 0.60);
+
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
 }
